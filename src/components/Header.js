@@ -22,10 +22,15 @@ const Header = () => {
       } fixed w-full z-10 transition-all `}
     >
       <div className="container mx-auto flex items-center justify-between h-full">
-        <Link to={"/"}>
+        {/* <Link to={"/"}>
           <div>
             <img className="w-[40px] " src={logo} alt="" />
           </div>
+        </Link> */}
+        <Link href={"/"}>
+          <h1 className="text-gray-900 text-4xl font-bold font-sofia ">
+            ry<span className="text-red-500  ">.dev</span>{" "}
+          </h1>
         </Link>
         <div
           className="cursor-pointer flex relative  "
