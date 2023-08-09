@@ -28,7 +28,7 @@ const Header = () => {
           </div>
         </Link> */}
         <Link href={"/"}>
-          <h1 className="text-gray-900 text-4xl font-bold font-sofia ">
+          <h1 className="text-gray-900 text-4xl font-bold font-fugaz ">
             ry<span className="text-red-500  ">.dev</span>{" "}
           </h1>
         </Link>
